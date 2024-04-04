@@ -7,7 +7,7 @@ const DrawerComp = () => {
   return (
     <Drawer.Root direction="right">
     <Drawer.Trigger asChild>
-      <div className='absolute right-4 top-[370px] rounded-xl h-20 w-8 bg-black cursor-pointer flex items-center justify-center'>
+      <div className='absolute right-4 top-[370px] rounded-xl h-20 w-8 bg-black hover:bg-slate-900 cursor-pointer flex items-center justify-center'>
         <TriangleRightIcon color="white" height={30} width={30}/>
       </div>
     </Drawer.Trigger>
